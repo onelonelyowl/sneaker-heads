@@ -27,3 +27,78 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+.colors{
+    color:- rgb(243, 183, 106)
+    - yellow
+    - rgb(241, 117, 0)
+    - red
+    - #f3b76a
+    - #f17500
+    - #0d6e00
+    - #6d00fb
+    - #dbff39
+    - #74c9f1
+    - #fb4040
+}
+@font-face {
+    font-family:"myFirstFont";
+    src: url("YoungSerif-Regular.ttf") format("truetype");
+}
+body {
+    background-image: url("https://images.axios.com/3p68HqrTu11O36v3BcFw8g2igtk=/2023/02/03/1675454101463.jpg");
+    background-size: cover;
+    font-family: "myFirstFont"; 
+    text-shadow: 0px 0px 5px white;
+}
+h1 {
+    
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3rem;
+    text-shadow: 0px 3px 7px #74c9f1;
+    background-image: linear-gradient(#74c9f1, #fb4040);
+    border: auto;
+    border-radius: .5em;
+    width: 500px;
+    margin: auto;   
+    font-family: "myFirstFont"; 
+}
+#jordans-1 {
+    border: solid .5em #74c9f1;
+    border-radius: .5em;
+    height: 400px;
+    width: 600px;
+    box-shadow: 5px 5px #74c9f1;
+}
+#jordans-1-desc{
+    background-color: #74c9f1;
+    border: solid 6px #f17500;
+    border-radius: 4px;
+    font-size: 1.5em;
+    padding: 5px;
+    width: 600px;
+
+}
+#jordans-2 {
+    border: solid .5em red;
+    border-radius: .5em;
+    height: 400px;
+    width: 600px;
+    box-shadow: -5px 5px red;
+}
+#jordans-2-desc{
+    background-color: red;
+    border: solid 6px #0d6e00;
+    border-radius: 4px;
+    font-size: 1.5em;
+    padding: 5px;
+    width: 600px;
+}
+#row1{
+    float: left;
+    padding: 50px
+}
+#row2{
+    float:right;
+    padding:50px
+}
